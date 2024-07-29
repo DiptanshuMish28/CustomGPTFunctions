@@ -7,7 +7,7 @@ import requests
 app = Flask(__name__)
 
 
-api_key = "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"
+api_key = ""
 openai.api_key = api_key
 
 def get_university_alpha_two_code(name, country):
